@@ -12,8 +12,33 @@
 
 <body>
     <header class="header">
-        <img src="assets/spacexname.dms" width="1000px" height="350px">
+        <img src="assets/spacexname.dms" width="1000px" height="250px">
     </header>
+
+    <div>
+        <h1>What would you like to know?</h1>
+        <h3>Search below to learn more about<br>
+            SpaceX...</h3>
+    </div>
+
+    <div>
+        <div>
+            <input type="text" id="search" class="search" required>
+        </div>
+    </div>
+
+    <form class="searchForm">
+        <div>
+            <p>
+                <button class="submit">Submit</button>
+                <button value="Refresh Page" onClick="window.location.reload();">Reset</button>
+            </p>
+        </div>
+    </form>
+
+    <div>
+        <ul></ul>
+    </div>
 
     <footer>
         <hr>
@@ -21,6 +46,8 @@
             <p>© 2019 Tyler Mayes | © 2019 Space Exploration Technologies Corp.</p>
         </div>
     </footer>
+
+    <script src="spacex.js"></script>
 </body>
 
 </html>
